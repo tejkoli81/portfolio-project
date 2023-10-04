@@ -1,19 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1></h1>  
     <div id="header">
-        <div id="container">
+        <div class="container">
             <nav>
-                <img src="assets/logo.png" alt="logo-=image" >
+                <img src="assets/logo.png"id="logo" alt="logo-image">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
             </nav>
+            <div class="head-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Tejkumar </span><br> Koli From India </h1>
+            </div>
         </div>
     </div>
+    <!-- about section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/user.png" alt="user-image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur 
+                        adipisicing elit. Ullam perspiciatis 
+                        vitae ad iste ea architecto expedita 
+                        consectetur veritatis alias voluptatem, 
+                        dolor optio ipsum nobis magnam 
+                        laudantium quo veniam dolorum eos n
+                        umquam mollitia fugiat vel? Illo, 
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link">Skills</p>
+                        <p class="tab-links">Experience</p>
+                        <p class="tab-links">Education</p>
+                    </div>
+                    <div class="tab-content">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                            <li><span>Web Development</span><br>Designing Web Development</li>
+                            <li><span>App Development</span><br>Designing App Development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
